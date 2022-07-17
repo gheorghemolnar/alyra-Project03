@@ -1,0 +1,101 @@
+#App {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  justify-items: center;
+  font-size: 1.6rem;
+  flex-direction: column;
+  --primary-color: #003E1F;
+  --secondary-color: #9CE7E2;
+  --thernary-color: #EE7879;
+  --background: #EFFBFA;
+}
+
+#App .header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-items: center;
+  background-color: var(--thernary-color);
+  color: #ffffff;
+  width: 80%;
+  min-width: 60rem;
+  max-width: 1320px;
+  padding: 1rem;
+}
+
+#App .container {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  background-color: var(--background);
+
+  color: #00458B;
+  width: 80%;
+  min-width: 60rem;
+  height: 100%;
+}
+
+#App .container .welcome {
+  width: 80%;
+}
+#App .container .welcome h1 {
+  padding-top: 7.5rem;
+  font-size: 2.6rem;
+}
+
+#App .container .contract-container {
+  margin-top: 2rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  min-width: 42rem;
+  border-radius: 1rem 0 0 1rem;
+}
+
+#App .container .contract-container .voting {
+  width: 80%
+}
+
+#App .container .contract-container .voting .voting-header .steps{
+  display: flex;
+  flex-direction: row;
+  justify-content: center; 
+  align-items: center;
+  background-color: var(--secondary-color);
+  border-radius: 6px;
+}
+
+#App .container .contract-container .voting .voting-body {
+  margin-top: 2rem;
+}
+
+#App .container .contract-container .voting-informations {
+  margin-top: 2rem;
+  width: 80%;
+}
+
+#App .cta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+}
+
+#App .cta .btns {
+  width: 35%;
+  padding: 2rem 0;
+}
+
+#App .details-list-proposals > div.listing, #App .details-list-voters > div.listing {
+  height: 300px;
+  overflow-y: scroll;
+  background-color: #EBEBEB;
+  padding: 1rem;
+}
