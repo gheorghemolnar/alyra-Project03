@@ -6,6 +6,15 @@ This repository contains:
 
 - /client/src : frontend, written using React library
 
+## Liens utiles pour le Projet 03:
+
+- Repository: https://github.com/gheorghemolnar/alyra-Project03
+
+- Front presentation video: https://www.loom.com/share/f25a596ff31b4d86894db0c22955a936
+
+- Link toward Github Pages deployment: https://gheorghemolnar.github.io/alyra-Project03/
+
+- Link toward Heroku deployment: https://still-escarpment-78024.herokuapp.com/
 
 ## Installation
 
@@ -37,4 +46,3 @@ Then, from the same directory (/client), start the react dev server:
 $ npm start
   Starting the development server...
 ```
-
